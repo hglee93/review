@@ -19,3 +19,8 @@ spec:
           image: skcc017.azurecr.io/review:latest
           ports:
             - containerPort: 8080
+          resources:
+            limits:
+              cpu: 500m
+            requests:
+              cpu: 200m
